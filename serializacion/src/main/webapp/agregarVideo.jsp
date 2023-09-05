@@ -10,13 +10,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>ReproMusic</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
         <h1>Sistema de Reproducción de Videos</h1>
-        <form action="SvVideo" method="GET">
+        <form action="SvVideo" method="POST">
             
         <label for="idVideo">idVideo:</label>
-        <input type="text" name="idvideo"><br>
+        <input type="text" name="idVideo"><br>
         
         <label for="titulo">Titulo:</label>
         <input type="text name="titulo"><br>
